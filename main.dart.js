@@ -93511,16 +93511,15 @@ break
 case 6:case 1:return A.o(q,r)
 case 2:return A.n(o,r)}})
 return A.p($async$xG,r)},
-xE(){var s=20,r=0
-return this.a0L()},
-a0L(){var s=0,r=A.q(t.Be),q,p=2,o,n=[],m,l,k,j,i,h,g,f,e,d,c,b
-var $async$xE=A.r(function(a,a0){if(a===1){o=a0
-s=p}while(true)switch(s){case 0:f=20
-e=0
-d=A.lq()
-c=d==null?new A.h_(A.aC(t.o)):d
+xE(a){var s=0
+return this.a0L(a)},
+a0L(a){var s=0,r=A.q(t.Be),q,p=2,o,n=[],m,l,k,j,i,h,g,f,e,d,c
+var $async$xE=A.r(function(b,a0){if(b===1){o=a0
+s=p}while(true)switch(s){case 0:f=0
+e=A.lq()
+d=e==null?new A.h_(A.aC(t.o)):e
 p=4
-m=new A.Fq(e,f,"username,shortId,nickname")
+m=new A.Fq(f,a,"username,shortId,nickname")
 j=A.bR(A.lU()+"/1.1/leaderboard/leaderboards/object/high_score_ranking/ranks",0,null)
 i=A.aPs(m)
 h=t.N
@@ -93528,7 +93527,7 @@ i=j.x7(0,i.l_(i,new A.aiC(),h,t.z))
 j=A.dJ()==="CN"?"ypxcu7jt53oif5mscs":"a9hpkjnbmbva2toaxd"
 j=A.l8(new A.ij(j,A.dJ()==="CN"?"wlPB00Bw0DJKCCNTcjVMWI1PmoWO8cXuQJG6KNlv":"DWtFMhV1TYtmgGzMItIoR6P6l3d4EDV43HU2NeyG",null,B.bQ))
 s=7
-return A.v(c.zK("GET",i,j.fJ(j,h,h)),$async$xE)
+return A.v(d.zK("GET",i,j.fJ(j,h,h)),$async$xE)
 case 7:l=a0
 if(l.b!==200){j=l.b
 i=l.c
@@ -93542,14 +93541,14 @@ n.push(6)
 s=5
 break
 case 4:p=3
-b=o
-throw b
+c=o
+throw c
 n.push(6)
 s=5
 break
 case 3:n=[2]
 case 5:p=2
-J.iq(c)
+J.iq(d)
 s=n.pop()
 break
 case 6:case 1:return A.o(q,r)
@@ -94822,7 +94821,7 @@ p.aX()
 $.kf()
 s=$.aFG()
 r=t.P
-s.xE().dK(new A.axZ(p),new A.ay_(p),r)
+s.xE(100).dK(new A.axZ(p),new A.ay_(p),r)
 q=$.cy().b
 if(q.a.gbA())s.xB(q.a.a).dK(new A.ay0(p),new A.ay1(),r)},
 l(){this.aK()},
